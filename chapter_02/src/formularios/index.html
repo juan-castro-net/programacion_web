@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formularios</title>
+</head>
+<body>
+
+<h1>Formularios</h1>
+<form action="procesar.jsp" method="post">
+<input type="hidden" name="codigo" value="100"/>
+
+<label for="nombre">Nombre:</label><br/>
+<input type="text" name="nombre" id="nombre"/>
+<br/><br/>
+
+<label for="password">Clave:</label><br/>
+<input type="password" name="password" id="password"/>
+<br/><br/>
+
+<label for="genero">Genero:</label><br/>
+<label for="femenino">Femenino</label>
+<input type="radio" name="genero" id="femenino" value="F"/>
+<label for="masculino">Masculino</label>
+<input type="radio" name="genero" id="masculino" value="M"/>
+<br/><br/>
+
+<label for="genero">Deporte:</label><br/>
+<label for="futbol">Futbol</label>
+<input type="checkbox" name="deporte" id="futbol" value="1"/>
+<label for="ciclismo">Ciclismo</label>
+<input type="checkbox" name="deporte" id="ciclismo" value="2"/>
+<label for="natacion">Natación</label>
+<input type="checkbox" name="deporte" id="natacion" value="3"/>
+<br/><br/>
+
+<label for="programa">Programa:</label><br/>
+<select name="programa" id="programa">
+<option value="10">Tecnología en Desarrollo de Software</option>
+<option value="20">Ingeniería de Software</option>
+<option value="30">Ingeniería Agrícola</option>
+</select>
+<br/><br/>
+
+<label for="observaciones">Observaciones:</label><br/>
+<textarea name="observaciones" id="observaciones" cols="80" rows="5"></textarea>
+<br/><br/>
+
+<label for="foto">Foto:</label><br/>
+<input type="file" name="foto" id="foto" accept=".jpg,.png"/>
+<br/><br/>
+
+<fieldset>
+<legend>Nuevos tipos de input:</legend>
+<br/>
+
+<label for="cantidad">Cantidad (entre 1 y 10):</label><br/>
+<input type="number" id="cantidad" name="cantidad" min="1" max="10"/>
+<br/><br/>
+
+<label for="estrato">Estrato (entre 1 y 6):</label><br/>
+<input type="range" id="estrato" name="estrato" min="1" max="6"/>
+<br/><br/>
+
+<label for="color">Color preferido: </label><br/>
+<input type="color" name="color" id="color"/>
+<br/><br/>
+
+<label for="buscar">Buscar:</label><br/>
+<input type="search" id="buscar" name="buscar"/>
+<br/><br/>
+
+<label for="navegador">Navegador:</label><br/>
+<input name="navegador" id="navegador" list="browsers">
+<datalist id="browsers">
+  <option value="Internet Explorer">Internet Explorer</option>
+  <option value="Firefox">Firefox</option>
+  <option value="Chrome">Chrome</option>
+  <option value="Opera">Opera</option>
+  <option value="Safari">Safari</option>
+</datalist>
+<br/><br/>
+
+<label for="fecha_nacimiento">Fecha de nacimiento:</label><br/>
+<input type="date" id="fecha_nacimiento" name="fecha_nacimiento"/>
+<br/><br/>
+
+<label for="hora">Hora:</label><br/>
+<input type="time" id="hora" name="hora"/>
+<br/><br/>
+
+<label for="mes">Mes:</label><br/>
+<input type="month" id="mes" name="mes"/>
+<br/><br/>
+
+<label for="semana">Semana:</label><br/>
+<input type="week" id="semana" name="semana"/>
+<br/><br/>
+
+<label for="email">Email:</label><br/>
+<input type="email" id="email" name="email"/>
+<br/><br/>
+
+<label for="homepage">Página web:</label><br/>
+<input type="url" id="homepage" name="homepage"/>
+<br/><br/>
+
+<label for="telefono">Teléfono (nnn-nnn-nnnn):</label><br/>
+<input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+<br/><br/>
+
+</fieldset>
+<br/>
+
+<input type="button" value="Validar"/>
+<input type="submit" value="Enviar"/>
+<input type="reset" value="Restablecer"/>
+</form>
+
+</body>
+</html>
