@@ -1,0 +1,13 @@
+header {
+	background-color: yellow;
+	font-family: Arial;
+}
+header h1 {
+	margin: 0px;
+	padding: 10px;
+	font-size: 250%;	
+}
+nav ul {
+	margin: 0px;
+  	background-color: green;
+}

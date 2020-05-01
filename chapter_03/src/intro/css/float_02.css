@@ -1,0 +1,25 @@
+div {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+section {
+	width: 73%;
+	float:left;
+}
+aside {
+	width: 23%;
+	float:left;
+}
+article {
+	clear: both;
+	border-bottom: dashed gray 1px;
+}
+article img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+aside img {
+  margin-left:10px;
+}

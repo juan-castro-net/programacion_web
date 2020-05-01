@@ -1,0 +1,11 @@
+body {
+	margin: 0px;
+}
+footer {
+	clear: both;
+	background-color: yellow;
+	margin: 0px;
+	padding: 5px;
+	border-top: 2px solid black;
+	font-family: Arial;
+}

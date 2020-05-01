@@ -1,0 +1,36 @@
+body {
+	margin: 0px;
+}
+header {
+	background-color: yellow;
+	font-family: Arial;
+}
+header h1 {
+	margin: 0px;
+	padding: 10px;
+	font-size: 250%;	
+}
+
+/* --- barra de navegación ---*/
+.menu_hor {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: green;
+}
+.menu_hor li {
+  float: left;
+  border-right: 1px solid yellow;
+}
+
+.menu_hor li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+.menu_hor li:last-child {
+  border-right: none;
+}

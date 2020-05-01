@@ -1,0 +1,16 @@
+p {
+	font-family: Arial;
+	color: blue;
+}
+.sangria {
+	padding-left: 50px;
+}
+#nota {
+	color: red;
+	font-weight: bold; 
+}
+h1, h2 {
+	background-color: yellow;
+	border-left: solid blue 10px;
+	padding-left: 20px;
+}
