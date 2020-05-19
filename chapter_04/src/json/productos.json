@@ -1,0 +1,5 @@
+{"productos":[
+{"id":10,"name":"Arduino","price":12.08,"image":"arduino.jpeg"},
+{"id":20,"name":"Raspberry","price":12.08,"image":"raspberry.jpeg"},
+{"id":30,"name":"GSM Module","price":12.08,"image":"gsm_module.jpeg"}
+]}
