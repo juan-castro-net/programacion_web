@@ -1,0 +1,10 @@
+img {
+	width: 240px;
+	height: 180px;
+}
+.estilo1{
+	border: solid red 5px;
+}
+.estilo2{
+	border: dashed blue 1px;
+}
